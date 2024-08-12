@@ -2,49 +2,31 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T15:04:33 WAT" name="Default suite" finished-at="2024-02-28T15:05:20 WAT" duration-ms="46604">
+  <suite started-at="2024-03-02T21:09:52 WAT" name="Default suite" finished-at="2024-03-02T21:10:37 WAT" duration-ms="44709">
     <groups>
     </groups>
-    <test started-at="2024-02-28T15:04:33 WAT" name="Default test" finished-at="2024-02-28T15:05:20 WAT" duration-ms="46604">
+    <test started-at="2024-03-02T21:09:52 WAT" name="Default test" finished-at="2024-03-02T21:10:37 WAT" duration-ms="44709">
       <class name="Greenmouse.DONandChyke.adminAddUsers">
-        <test-method is-config="true" signature="report()[pri:0, instance:Greenmouse.DONandChyke.adminAddUsers@42e99e4a]" started-at="2024-02-28T15:04:33 WAT" name="report" finished-at="2024-02-28T15:04:34 WAT" duration-ms="284" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Greenmouse.DONandChyke.adminAddUsers@42e99e4a]" started-at="2024-03-02T21:09:52 WAT" name="report" finished-at="2024-03-02T21:09:52 WAT" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method signature="adminActivity()[pri:0, instance:Greenmouse.DONandChyke.adminAddUsers@42e99e4a]" started-at="2024-02-28T15:04:34 WAT" name="adminActivity" finished-at="2024-02-28T15:05:20 WAT" duration-ms="46279" status="FAIL">
+        <test-method signature="adminActivity()[pri:0, instance:Greenmouse.DONandChyke.adminAddUsers@42e99e4a]" started-at="2024-03-02T21:09:52 WAT" name="adminActivity" finished-at="2024-03-02T21:10:37 WAT" duration-ms="44420" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Back']"}
-  (Session info: chrome=122.0.6261.94)
+              <![CDATA[Unable to find element with locator By.xpath: //a[text()='Back']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [11f38b0cbe2e7de193dbb956c0c861ba, findElement {using=xpath, value=//a[text()='Back']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: /var/folders/kd/_pnkz4755c9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59265/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 11f38b0cbe2e7de193dbb956c0c861ba]]>
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.3', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Back']"}
-  (Session info: chrome=122.0.6261.94)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[text()='Back']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [11f38b0cbe2e7de193dbb956c0c861ba, findElement {using=xpath, value=//a[text()='Back']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: /var/folders/kd/_pnkz4755c9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59265/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 11f38b0cbe2e7de193dbb956c0c861ba
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.3', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
@@ -82,7 +64,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminActivity -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Greenmouse.DONandChyke.adminAddUsers@42e99e4a]" started-at="2024-02-28T15:05:20 WAT" name="tearDown" finished-at="2024-02-28T15:05:20 WAT" duration-ms="4" status="FAIL">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Greenmouse.DONandChyke.adminAddUsers@42e99e4a]" started-at="2024-03-02T21:10:37 WAT" name="tearDown" finished-at="2024-03-02T21:10:37 WAT" duration-ms="9" status="FAIL">
           <params>
             <param index="0">
               <value>
